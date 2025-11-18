@@ -5,7 +5,7 @@ const SingUpPage = () => {
 
     return (
         <div>
-            <AuthForm type="/sign-up"/>
+            <AuthForm type="sign-up"/>
         </div>
     )
 }
