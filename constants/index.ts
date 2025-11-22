@@ -1,8 +1,6 @@
 // import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 // import { z } from "zod";
 
-import type { NextConfig } from "next";
-
 export const mappings = {
   "react.js": "react",
   reactjs: "react",
@@ -230,8 +228,3 @@ export const dummyInterviews: Interview[] = [
     createdAt: "2024-03-14T15:30:00Z",
   },
 ];
-export const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuils: true,
-  }
-};
